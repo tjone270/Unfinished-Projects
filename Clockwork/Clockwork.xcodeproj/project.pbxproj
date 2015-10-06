@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23B4F9A01ACA534D00482CC5 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B4F99F1ACA534D00482CC5 /* AppleScriptObjC.framework */; };
+		23B4F9A51ACA534D00482CC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B4F9A41ACA534D00482CC5 /* main.m */; };
+		23B4F9A71ACA534D00482CC5 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 23B4F9A61ACA534D00482CC5 /* AppDelegate.applescript */; };
+		23B4F9AC1ACA534D00482CC5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23B4F9AA1ACA534D00482CC5 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23B4F99C1ACA534D00482CC5 /* Clockwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clockwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B4F99F1ACA534D00482CC5 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		23B4F9A31ACA534D00482CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B4F9A41ACA534D00482CC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23B4F9A61ACA534D00482CC5 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		23B4F9AB1ACA534D00482CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23B4F9991ACA534D00482CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B4F9A01ACA534D00482CC5 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B4F9931ACA534D00482CC5 = {
+			isa = PBXGroup;
+			children = (
+				23B4F9A11ACA534D00482CC5 /* Clockwork */,
+				23B4F99E1ACA534D00482CC5 /* Frameworks */,
+				23B4F99D1ACA534D00482CC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23B4F99D1ACA534D00482CC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23B4F99C1ACA534D00482CC5 /* Clockwork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B4F99E1ACA534D00482CC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23B4F99F1ACA534D00482CC5 /* AppleScriptObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23B4F9A11ACA534D00482CC5 /* Clockwork */ = {
+			isa = PBXGroup;
+			children = (
+				23B4F9A61ACA534D00482CC5 /* AppDelegate.applescript */,
+				23B4F9AA1ACA534D00482CC5 /* MainMenu.xib */,
+				23B4F9A21ACA534D00482CC5 /* Supporting Files */,
+			);
+			path = Clockwork;
+			sourceTree = "<group>";
+		};
+		23B4F9A21ACA534D00482CC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23B4F9A31ACA534D00482CC5 /* Info.plist */,
+				23B4F9A41ACA534D00482CC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23B4F99B1ACA534D00482CC5 /* Clockwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B4F9AF1ACA534D00482CC5 /* Build configuration list for PBXNativeTarget "Clockwork" */;
+			buildPhases = (
+				23B4F9981ACA534D00482CC5 /* Sources */,
+				23B4F9991ACA534D00482CC5 /* Frameworks */,
+				23B4F99A1ACA534D00482CC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clockwork;
+			productName = Clockwork;
+			productReference = 23B4F99C1ACA534D00482CC5 /* Clockwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23B4F9941ACA534D00482CC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "TomTec Solutions";
+				TargetAttributes = {
+					23B4F99B1ACA534D00482CC5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 6KF5L5B99G;
+					};
+				};
+			};
+			buildConfigurationList = 23B4F9971ACA534D00482CC5 /* Build configuration list for PBXProject "Clockwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23B4F9931ACA534D00482CC5;
+			productRefGroup = 23B4F99D1ACA534D00482CC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23B4F99B1ACA534D00482CC5 /* Clockwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23B4F99A1ACA534D00482CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B4F9AC1ACA534D00482CC5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23B4F9981ACA534D00482CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B4F9A71ACA534D00482CC5 /* AppDelegate.applescript in Sources */,
+				23B4F9A51ACA534D00482CC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23B4F9AA1ACA534D00482CC5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23B4F9AB1ACA534D00482CC5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23B4F9AD1ACA534D00482CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		23B4F9AE1ACA534D00482CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		23B4F9B01ACA534D00482CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Clockwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23B4F9B11ACA534D00482CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Clockwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23B4F9971ACA534D00482CC5 /* Build configuration list for PBXProject "Clockwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B4F9AD1ACA534D00482CC5 /* Debug */,
+				23B4F9AE1ACA534D00482CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B4F9AF1ACA534D00482CC5 /* Build configuration list for PBXNativeTarget "Clockwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B4F9B01ACA534D00482CC5 /* Debug */,
+				23B4F9B11ACA534D00482CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23B4F9941ACA534D00482CC5 /* Project object */;
+}
